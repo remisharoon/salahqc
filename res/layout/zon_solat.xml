@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/EGAS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/EGAS" />
+
+    <Button
+        android:id="@+id/UISKS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/UISKS" />
+
+    <Button
+        android:id="@+id/UISKH" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/UISKH" />
+
+    <Button
+        android:id="@+id/ISNA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/ISNA" />
+    <Button
+        android:id="@+id/MWL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/MWL" />
+    <Button
+        android:id="@+id/UAQ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/UAQ" /> 
+    <Button
+        android:id="@+id/FII"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="@color/zone_hightlight"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip"
+        android:text="@string/FII" />               
+
+</LinearLayout>

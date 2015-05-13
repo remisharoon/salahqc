@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Salah Timings</string>
+    <string name="imsak_title">Calculation Method</string>
+    <string name="subuh_title">Fajr</string>
+    <string name="syuruk_title">Sunrise</string>
+    <string name="zohor_title">Zuhur</string>
+    <string name="asar_title">Asr</string>
+    <string name="maghrib_title">Maghrib</string>
+    <string name="isya_title">Isha</string> 
+    <string name="qibla_title">Qibla Direction</string>     
+    <string name="based_on">Salah-Timing based on www.salah.com</string>
+    <string name="select_negeri_default"> -- </string>
+    <string name="select_kawasan_default"> -- </string>
+    <string name="select_zone_title"> -- </string>
+    <string name="kemaskini_title">Last Updated:</string>
+    <string name="default_kemaskini"> -- </string>
+    <string name="widget_name">Widget Salah</string>
+    <string name="solatnotification">Salah Notification</string>
+    <string name="calc_method_title">Calculation Method</string> 
+
+    <string name="EGAS">Egyptian General Authority Of Survey</string>
+    <string name="UISKS">University Of Islamic Sciences (Shafi)</string>
+    <string name="UISKH">University Of Islamic Sciences (Hanafi)</string>
+    <string name="ISNA">Islamic Society Of North America</string>
+    <string name="MWL">Muslim World League</string>
+    <string name="UAQ">Umm Al-Qurra (Middle East)</string>
+    <string name="FII">Fixed Isha Interval</string>
+    
+    
+    <string name="settings_label">Settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="settings_title">Salah Settings</string>
+    <string name="imsak_setting_title">Imsak</string>
+    <string name="imsak_setting_summary">Play Azan for Imsak</string>
+    <string name="subuh_setting_title">Subuh</string>
+    <string name="subuh_setting_summary">Play Azan for Subuh</string>
+    <string name="syuruk_setting_title">Sunrise</string>
+    <string name="syuruk_setting_summary">Play Azan for Sunrise</string>
+    <string name="zohor_setting_title">Zuhur</string>
+    <string name="zohor_setting_summary">Play Azan for Zuhur</string>
+    <string name="asar_setting_title">Asr</string>
+    <string name="asar_setting_summary">Play Azan for Asr</string>
+    <string name="maghrib_setting_title">Maghrib</string>
+    <string name="maghrib_setting_summary">Play Azan for Maghrib</string>
+    <string name="isya_setting_title">Isha</string>
+    <string name="isya_setting_summary">Play Azan for Isha</string>    
+    
+    <string name="GoToSettings">Open Settings</string>
+    <string name="NoLocationSource">Please press \"Open Settings\" and enable at least one location source.</string>
+    <string name="Settings">Settings</string>
+    <string name="UsedLocation">Using last location</string>
+    <string name="SearchingLocation">Detecting location</string>
+    <string name="NoLocationDetected">Unable to detect location. Kindly press \"Open Settings\" and enable GPS or WIFI or Both</string>
+    <string name="About">About</string>
+    <string name="CompanyURL">http://www.zapine.com</string>
+    <string name="Copyright">© 2012 ZEE Labs and Zapine Technologies. All rights reserved.</string>
+    <string name="Miscellaneous">Settings</string>
+    <string name="Asr">Asr</string>
+    <string name="EGOS">Egyptian General Organisation of Surveying</string>
+    <string name="Fajr">Fajr</string>
+    <string name="Hanafi">Hanafi</string>
+    <string name="Isha">Isha</string>
+    <string name="IslamicOrganisation">Islamic Organisation</string>
+    <string name="CalculationMethod">Calculation Method</string>
+    <string name="ISNA2">Islamic Society of North America (ISNA)</string>
+    <string name="JuristicMethod">Juristic Method</string>
+    <string name="Maghrib">Maghrib</string> 
+    <string name="MWL2">Muslim World League</string>
+    <string name="PrayerTimes">Prayer Times</string>
+    <string name="QiblaCompass">Qibla Compass</string>
+    <string name="Shafi">Shafi</string>
+    <string name="ShafiHanafi">Shafi, Hanafi</string>
+    <string name="Sunrise">Sunrise</string>
+    <string name="UISK">University of Islamic Sciences, Karachi</string>
+    <string name="UISK_ISNA_MWL_EGOS">UISK, ISNA, MWL, EGOS</string>
+    <string name="UUQM">Um Ul-Qura, Makkah</string>
+    <string name="II">Ithna Ashari</string>
+    <string name="IGT">Institute of GeoPhysics Tehran</string>
+    <string name="Zuhr">Zuhr</string>
+    <string name="HourFormat">Time format</string>
+    <string name="Hour12">12 hour</string>
+    <string name="Hour24">24 hour</string>
+    <string name="preferences_asr_key">asrKey</string>
+    <string name="preferences_asr_default_value">1</string>
+    <string name="preferences_fajr_and_isha_key">fajrAndIshaKey</string>
+    <string name="preferences_fajr_and_isha_default_value">3</string>
+    <string name="preferences_hour_format_key">hourFormatKey</string>
+    <string name="preferences_hour_format_default_value">1</string>
+    <string name="preferences_distance_unit_key">distanceUnitKey</string>
+    <string name="preferences_distance_unit_default_value">0</string>
+    <string name="Error">Error</string>
+    <string name="ErrorConnecting">Unable to find any internet connection. Would you like to go to Wireless controls and enable it?</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="aboutus_moreapps">Download More Apps</string>
+    <string name="aboutus_rateapp">Rate it</string>
+    <string name="aboutus_details">"We are a small team of passionate developers. If you like this app, don't forget to rate this application. It will help us to provide continuous support and development."</string>        
+</resources>

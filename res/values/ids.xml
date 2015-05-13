@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="Application">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="LinearLayoutCompass">false</item>
+    <item type="id" name="RelativeLayout01">false</item>
+    <item type="id" name="ImageViewRosetta">false</item>
+    <item type="id" name="ImageViewArrow">false</item>
+    <item type="id" name="ads">false</item>
+    <item type="id" name="adwhirl_layout">false</item>
+    <item type="id" name="LinearLayoutPrayerTimes">false</item>
+    <item type="id" name="LinearLayoutFajr">false</item>
+    <item type="id" name="TextViewFajr">false</item>
+    <item type="id" name="TextViewFajrHour">false</item>
+    <item type="id" name="LinearLayoutSunrise">false</item>
+    <item type="id" name="TextViewSunrise">false</item>
+    <item type="id" name="TextViewSunriseHour">false</item>
+    <item type="id" name="LinearLayoutZuhr">false</item>
+    <item type="id" name="TextViewZuhr">false</item>
+    <item type="id" name="TextViewZuhrHour">false</item>
+    <item type="id" name="LinearLayoutAsr">false</item>
+    <item type="id" name="TextViewAsr">false</item>
+    <item type="id" name="TextViewAsrHour">false</item>
+    <item type="id" name="LinearLayoutMaghrib">false</item>
+    <item type="id" name="TextViewMaghrib">false</item>
+    <item type="id" name="TextViewMaghribHour">false</item>
+    <item type="id" name="LinearLayoutIsha">false</item>
+    <item type="id" name="TextViewIsha">false</item>
+    <item type="id" name="TextViewIshaHour">false</item>
+    <item type="id" name="ads2">false</item>
+    <item type="id" name="adwhirl_layout2">false</item>
+    <item type="id" name="menuItemSettings">false</item>
+    <item type="id" name="menuItemAbout">false</item>
+</resources>

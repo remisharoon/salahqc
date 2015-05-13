@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutFajr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="left" android:id="@id/TextViewFajr" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Fajr" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:id="@id/TextViewFajrHour" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutSunrise" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="left" android:id="@id/TextViewSunrise" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Sunrise" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:id="@id/TextViewSunriseHour" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutZuhr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="left" android:id="@id/TextViewZuhr" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Zuhr" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:id="@id/TextViewZuhrHour" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutAsr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="left" android:id="@id/TextViewAsr" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Asr" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:id="@id/TextViewAsrHour" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutMaghrib" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="left" android:id="@id/TextViewMaghrib" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Maghrib" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:id="@id/TextViewMaghribHour" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayoutIsha" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="left" android:id="@id/TextViewIsha" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Isha" />
+            <TextView android:textSize="16.0sp" android:gravity="right" android:id="@id/TextViewIshaHour" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

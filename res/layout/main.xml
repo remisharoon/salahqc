@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <LinearLayout android:gravity="center" 
+        android:orientation="vertical" 
+        android:padding="0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	        <com.google.ads.AdView
+	            android:id="@+id/ad"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:layout_alignParentTop="true"
+	            ads:adSize="BANNER"
+	            ads:adUnitId="a150a3c25576085"
+	            ads:backgroundColor="#000000"
+	            ads:primaryTextColor="#FFFFFF"
+	            ads:secondaryTextColor="#CCCCCC" />
+	    </RelativeLayout>	 
+	    <View android:background="#80BCEE68" android:layout_width="fill_parent" android:layout_height="1.5dip" />
+	    <ScrollView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:fillViewport="true" >
+		    <LinearLayout android:gravity="center" 
+		        android:orientation="vertical" 
+		        android:padding="0dip" 
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content">
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				         
+				            <TextView android:textSize="14.0sp" 
+				                android:gravity="center" 
+				                android:id="@+id/negeri" 
+				                android:text="@string/select_negeri_default"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content" />
+				        </LinearLayout>
+				
+						<View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+						 
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="14.0sp" 
+				                android:gravity="left" 
+				                android:id="@+id/kemaskini_title" 
+				                android:text="@string/kemaskini_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="14.0sp" 
+				                
+				                android:gravity="right" 
+				                android:id="@+id/kemaskini" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content" 
+				                android:text="@string/default_kemaskini" />
+				            
+
+				        </LinearLayout>
+
+				        
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" /> 
+						 
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                
+				                android:gravity="left"
+				                android:id="@+id/subuh_title" 
+				                android:text="@string/subuh_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right" 
+				                android:id="@+id/subuh_time" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+				            
+
+				        </LinearLayout>
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="left"
+				                android:id="@+id/syuruk_title" 
+				                android:text="@string/syuruk_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right"  
+				                android:id="@+id/syuruk_time" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+
+				        </LinearLayout>   
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="left"
+				                android:id="@+id/zohor_title" 
+				                android:text="@string/zohor_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right"  
+				                android:id="@+id/zohor_time" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+
+				        </LinearLayout> 
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="left" 
+				                android:id="@+id/asar_title" 
+				                android:text="@string/asar_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right" 
+				                android:id="@+id/asar_time" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+
+				        </LinearLayout> 
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="left" 
+				                android:id="@+id/maghrib_title" 
+				                android:text="@string/maghrib_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right" 
+				                android:id="@+id/maghrib_time" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+
+				        </LinearLayout> 
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="left" 
+				                android:id="@+id/isya_title" 
+				                android:text="@string/isya_title"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right" 
+				                android:id="@+id/isya_time" 
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+
+				        </LinearLayout>
+				        
+				        
+					    <View android:background="#90DAA520" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="left" 
+				                android:id="@+id/qibla_title" 
+				                android:text="@string/qibla_title"
+				                android:padding="15.0dip" 
+				                android:background="#90DAA520"
+				                android:textColor="@color/black"
+				                android:layout_width="wrap_content" 
+				                android:layout_height="wrap_content" />
+				                
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right" 
+				                android:id="@+id/qibla_dir" 
+				                android:padding="15.0dip" 
+				                android:background="#90DAA520"
+				                android:textColor="@color/black"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+
+				                
+				        </LinearLayout>
+				        
+					    <View android:background="#90DAA520" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				           
+				            <TextView android:textSize="14.0sp" 
+				                android:gravity="center" 
+				                android:id="@+id/isya_title" 
+				                android:text="@string/based_on"
+				                android:padding="15.0dip" 
+				                android:textColor="@color/black"
+				                android:background="#90DAA520"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content" />
+				        </LinearLayout>
+				        
+		
+				        
+				        		        
+					    <View android:background="#90DAA520" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+					    
+				        <RelativeLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				            
+				            <TextView android:textSize="14.0sp" 
+				                android:gravity="center" 
+				                android:id="@+id/calc_method"
+				                android:padding="15.0dip"
+				                android:textStyle="italic"
+				                android:textColor="@color/black"
+				                android:background="#90DAA520"
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content"  />
+				            <!-- 
+				            <TextView android:textSize="18.0sp" 
+				                android:gravity="right"
+				                android:id="@+id/calc_method_title" 
+				                android:text="@string/calc_method_title"
+				                android:padding="10.0dip" 
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content" />
+				             -->
+				        </RelativeLayout>				        
+					    <View android:background="#ff848284" android:layout_width="fill_parent" android:layout_height="0.5dip" />    
+				
+				    <ProgressBar
+				        android:id="@+id/progressBar1"
+				        style="@android:style/Widget.ProgressBar.Inverse"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center" >
+				    </ProgressBar>
+
+				    <ImageButton
+				        android:id="@+id/select_method"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:background="@drawable/btn"
+				        android:paddingBottom="12dip"
+				        android:paddingTop="12dip"
+				        android:visibility="invisible"
+				        android:text="@string/select_zone_title" />
+				</LinearLayout> 	    
+			</ScrollView>
+		
+	    </LinearLayout> 
+				
+				        <LinearLayout android:orientation="horizontal" 
+				            android:id="@id/LinearLayoutFajr" 
+				            android:layout_width="fill_parent" 
+				            android:layout_height="wrap_content">
+				         
+				            <TextView android:textSize="14.0sp" 
+				                android:gravity="center" 
+				                android:id="@+id/kawasan" 
+				                android:text="@string/select_kawasan_default"
+				                android:textColor="@color/black"
+				                android:background="#90DAA520"
+				                android:padding="15.0dip" 
+				                android:layout_width="fill_parent" 
+				                android:layout_height="wrap_content" />
+				        </LinearLayout>
+				
+
+</LinearLayout>

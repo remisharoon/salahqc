@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="white">#ffffffff</color>
+        <color name="black">#ff000000</color>
+        <color name="green">#90DAA520</color>
+        <!-- <color name="hightlight">#CAFF70</color>   -->
+        <color name="hightlight">#DDFFD700</color>
+        <color name="zone_hightlight">#7000CED1</color>
+             
+</resources>

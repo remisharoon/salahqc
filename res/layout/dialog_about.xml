@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/icon" />
+        <TextView android:textSize="20.0dip" android:gravity="center_horizontal" android:id="@id/Application" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Prayer Times with Qibla Compass v1.1.1" />
+        <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/aboutus_details" />
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aboutus_rateapp" android:drawableLeft="@drawable/about_box_star" android:onClick="onRateItClick" style="@style/ABB_BlackLong" />
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aboutus_moreapps" android:drawableLeft="@drawable/about_box_download" android:onClick="onMoreAppsClick" style="@style/ABB_BlackLong" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Copyright" />
+        <TextView android:textSize="20.0dip" android:gravity="center_horizontal" android:autoLink="web" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/CompanyURL" />
+    </LinearLayout>
+</LinearLayout>
+ 

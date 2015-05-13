@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Miscellaneous">
+        <ListPreference android:entries="@array/Asr" android:title="@string/JuristicMethod" android:key="@string/preferences_asr_key" android:summary="@string/ShafiHanafi" android:defaultValue="@string/preferences_asr_default_value" android:entryValues="@array/AsrValues" />
+        <ListPreference android:entries="@array/FajrAndIsha" android:title="@string/CalculationMethod" android:key="@string/preferences_fajr_and_isha_key" android:summary="@string/UISK_ISNA_MWL_EGOS" android:defaultValue="@string/preferences_fajr_and_isha_default_value" android:entryValues="@array/FajrAndIshaValues" />
+        <ListPreference android:entries="@array/HourFormat" android:title="@string/HourFormat" android:key="@string/preferences_hour_format_key" android:summary="@string/Hour12" android:defaultValue="@string/preferences_hour_format_default_value" android:entryValues="@array/HourFormatValues" />
+    </PreferenceCategory>
+</PreferenceScreen>

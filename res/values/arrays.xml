@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="negeri">
+<item>Johor</item>
+<item>Kedah</item>
+<item>Kelantan</item>
+<item>Melaka</item>
+<item>Negeri Sembilan</item>
+<item>Pahang</item>
+<item>Perak</item>
+<item>Pahang</item>
+<item>Perlis</item>
+<item>Pulau Pinang</item>
+<item>Sabah</item>
+<item>Sarawak</item>
+<item>Selangor Dan Wilayah Persekutuan</item>
+<item>Terengganu</item>
+<item>Wilayah Persekutuan</item>
+</array>
+<array name="nama_1">
+<item>Kota Tinggi, Mersing, Johor Bahru</item>
+<item>Batu Pahat, Muar, Segamat, Gemas</item>
+<item>Kluang dan Pontian</item> 
+<item>Pulau Aur dan Pemanggil</item>
+</array>
+<array name="kod_1">
+<item>jhr02</item>
+<item>jhr04</item>
+<item>jhr03</item> 
+<item>jhr01</item>
+</array>
+    <array name="Asr">
+        <item>@string/Shafi</item>
+        <item>@string/Hanafi</item>
+    </array>
+    <string-array name="AsrValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="FajrAndIsha">
+        <item>@string/II</item>
+        <item>@string/UISK</item>
+        <item>@string/ISNA</item>
+        <item>@string/MWL</item>
+        <item>@string/UUQM</item>
+        <item>@string/EGOS</item>
+        <item>@string/IGT</item>
+    </array>
+    <string-array name="FajrAndIshaValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <array name="HourFormat">
+        <item>@string/Hour12</item>
+        <item>@string/Hour24</item>
+    </array>
+    <string-array name="HourFormatValues">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    
+</resources>
